@@ -9,5 +9,7 @@ TRAIN:
   PROPOSAL_METHOD: gt
   BG_THRESH_LO: 0.0
   SNAPSHOT_ITERS: 10
+  BATCH_SIZE: 128
 TEST:
   HAS_RPN: True
+  RPN_POST_NMS_TOP_N: 128 # to match batch size (bit of a hack, I fear)
