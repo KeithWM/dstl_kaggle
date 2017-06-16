@@ -102,3 +102,6 @@ ENV/
 
 # nohup output logs
 nohup.out
+
+# dir with trained networks
+models/ZF/trained
