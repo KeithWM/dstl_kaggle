@@ -1,4 +1,4 @@
-train_net: "/home/ubuntu/dstl/models/ZF/train.prototxt"
+train_net: "/home/ubuntu/dstl/models/ZF/train_rpn.prototxt"
 test_net: "/home/ubuntu/dstl/models/ZF/test.prototxt"
 
 test_iter: 100
