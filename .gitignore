@@ -106,4 +106,5 @@ nohup.out
 # dir with trained networks
 models/ZF/trained
 models/VGG16/trained
+models/VGG16/3_classes/trained
 
