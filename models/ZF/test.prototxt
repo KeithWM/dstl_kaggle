@@ -4,14 +4,14 @@ input: "data"
 input_shape {
   dim: 1
   dim: 3
-  dim: 224
-  dim: 224
+  dim: 600
+  dim: 600
 }
 
 input: "im_info"
 input_shape {
   dim: 1
-  dim: 3
+  dim: 4
 }
 
 #========= conv1-conv5 ============
